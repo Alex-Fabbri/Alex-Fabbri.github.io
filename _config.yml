@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Alexander R. Fabbri"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : "Alexander R. Fabbri"
 description              : &description "personal description"
 url                      : https://Alex-Fabbri.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
