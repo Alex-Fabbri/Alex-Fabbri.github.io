@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
@@ -9,6 +9,7 @@ urlcolor: blue
 {% include base_path %}
 
 [Google Scholar](https://scholar.google.com/citations?user=GgfJdhwAAAAJ&hl=en)
+test2
 
 * [TutorialBank: Using a Manually-Collected Corpus for Prerequisite Chains, Survey Extraction and Resource Recommendation]().[DATA]()<br/>
     - **Alexander Fabbri**, Irene Li, Prawat Trairatvorakul, Yijiao He, Weitai Ting, Robert Tung, Caitlin Westerfield and Dragomir Radev
