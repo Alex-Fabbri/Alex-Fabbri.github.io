@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title: "TutorialBank: Learn NLP More Easily"
 tags: [test]
 author: Alex Fabbri
