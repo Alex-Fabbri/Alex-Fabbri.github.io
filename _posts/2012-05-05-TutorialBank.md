@@ -13,8 +13,14 @@ draft: true
 
 Welcome! If you've made it here, you are probably interested in Natural Language Processing \(NLP\) or a related field \( even if you're not, keep reading! \). In that case, I don't need to remind you how quickly NLP is growing, but here are two diagrams just in case. 
 
-![]({{ "/assets/imgs/nlp_search.png" | absolute_url }})
-*A search of NLP returns over a billion results* 
+
+| ![]({{ "/assets/imgs/nlp_search.png" | absolute_url }}) | 
+|:--:| 
+| *A serach of "NLP" returns over a billion results* |
+
+| ![]({{ "/assets/imgs/google_trends.png" | absolute_url }}) | 
+|:--:| 
+| *Google trends for the term "Deep Learning"* |
 
 added head
 
