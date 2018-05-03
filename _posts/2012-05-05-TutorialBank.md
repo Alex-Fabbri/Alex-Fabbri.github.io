@@ -14,7 +14,7 @@ draft: true
 Welcome! If you've made it here, you are probably interested in Natural Language Processing \(NLP\) or a related field \( even if you're not, keep reading! \). In that case, I don't need to remind you how quickly NLP is growing, but here are two diagrams just in case. 
 
 
-drago asdfasdfasfd2image
+diasdfasdfrago asdfasdfasfd2image
 
 William Shakespeare, also known as the "Bard of Avon," is often called England's national poet and considered the greatest dramatist of all time. Shakespeare's works are known throughout the world, but his personal life is shrouded in mystery.
 Who Was William Shakespeare?
