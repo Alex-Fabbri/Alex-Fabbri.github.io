@@ -46,13 +46,13 @@ Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) whi
 
 <br> 
 
-of you can just search for specific terms by clicking "Search Resources" as shown below: 
+or you can just search for specific terms by clicking "Search Resources" as shown below: 
 
 
 <br> 
 
 | ![]({{ "/assets/imgs/search_lstm.png" | absolute_url }}) | 
 |:--:| 
-| *In the mood to learn about Deep Learning? Look at all the resources we have for you!* |
+| *I wish I had this resource before I did my homework on LSTMs...* |
 
 <br> 
