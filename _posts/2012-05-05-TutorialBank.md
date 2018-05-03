@@ -35,7 +35,7 @@ TutorialBank is a manually collected dataset of over 5,600 resources on NLP as w
 
 # How can I use TutorialBank? 
 
-Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) which we call "All About NLP" (AAN) and which you can use to easily search our corpus.  Our site also hosts the ACL Anthology Corpus and allows you to search over 24,000 papers and we are constantly expanding our corpus. You can explore our taxonomy and pick the type of resource you are looking for by clicking "Browse Resources by Topic:"
+Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) which we call "All About NLP" (AAN) and which you can use to easily search our corpus.  Our site also hosts the ACL Anthology Corpus and allows you to search over 24,000 papers. We are constantly expanding our corpus and developing our site. You can explore our taxonomy and pick the type of resource you are looking for by clicking "Browse Resources by Topic:"
 
 
 <br> 
@@ -56,3 +56,18 @@ or you can just search for specific terms by clicking "Search Resources" as show
 | *I wish I had this resource before I did my homework on LSTMs...* |
 
 <br> 
+
+# Is there more? 
+
+I'm glad you asked! While the collection of all these resources in a search engine is great in and of itself, we did annotation to make our corpus more useful for both the student and the researcher. Additionally, we created a simple command-line tool to make our annotations easily accessible, as described below. 
+
+## Survey Topics and Reading Lists
+We created a list of 200 topics for which we felt surveys akin to Wikipedia pages would be helpful. 
+
+
+
+# Can I use this for research too? 
+Of course! 
+
+
+# References
