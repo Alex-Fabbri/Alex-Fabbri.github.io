@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Test math"
+title: "test draft"
 tags: [test]
 use_math: true
+draft: true
 ---
 
 
