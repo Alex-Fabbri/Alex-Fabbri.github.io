@@ -16,6 +16,9 @@ layout: compress
 
   <body>
 
+      <div id="left-side">
+        {{ content | toc_generate }}
+      </div>
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
