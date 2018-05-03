@@ -35,7 +35,7 @@ TutorialBank is a manually collected dataset of over 5,600 resources on NLP as w
 
 # How can I use TutorialBank? 
 
-Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) which we call "All About NLP" (AAN) and which you can use to easily search our corpus.  Our site also hosts the ACL Anthology Corpus and allows you to search over 24,000 papers. We are constantly expanding our corpus and developing our site. You can explore our taxonomy and pick the type of resource you are looking for by clicking "Browse Resources by Topic:"
+Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) which we call "All About NLP" (AAN) and which you can use to easily search our corpus.  Our site also hosts the ACL Anthology Network Corpus and allows you to search over 24,000 papers. We are constantly expanding our corpus and developing our site. You can explore our taxonomy and pick the type of resource you are looking for by clicking "Browse Resources by Topic:"
 
 
 <br> 
@@ -62,8 +62,27 @@ or you can just search for specific terms by clicking "Search Resources" as show
 I'm glad you asked! While the collection of all these resources in a search engine is great in and of itself, we did annotation to make our corpus more useful for both the student and the researcher. Additionally, we created a simple command-line tool to make our annotations easily accessible, as described below. 
 
 ## Survey Topics and Reading Lists
-We created a list of 200 topics for which we felt surveys or overviews would be useful. 
+We created a list of 200 topics for which we felt surveys or overviews would be useful and created short reading lists for each topic. What if you don't know which topic to start with? To deal with these, we annotated which topics are prerequisites of which other topics; which topics should you learn to better understand a given topic. Finally, we split up resources for these 200 topics into content cards and then labeled the cards as useful or not for learning the topic at hand. This is important since often resources are on a more general topic and only partly cover the topic you want to learn about. 
 
+### Accessing our annotations
+That sounds like a mouthful to go through. Luckily for you, we create a command-line tool to make our annotations more accessible through an interface:
+
+
+<br> 
+
+| ![]({{ "/assets/imgs/interface.png" | absolute_url }}) | 
+|:--:| 
+| *Try out some of the options from our interface!* |
+
+<br> 
+
+<br> 
+
+| ![]({{ "/assets/imgs/nmt.png" | absolute_url }}) | 
+|:--:| 
+| *Get a reading list for any of the annotated topics* |
+
+<br> 
 
 
 # Can I use this for research too? 
