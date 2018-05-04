@@ -23,7 +23,7 @@ Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) whi
 
 <br> 
 
-| ![]({{ "/assets/imgs/search_resources.png" | absolute_url }}{:height="800px" width="800px"}) | 
+| ![]({{ "/assets/imgs/search_resources.png" | absolute_url }}){:height="800px" width="800px"} | 
 |:--:| 
 | *In the mood to learn about Deep Learning? Look at all the resources we have for you!* |
 
