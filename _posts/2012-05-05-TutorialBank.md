@@ -12,7 +12,7 @@ draft: true
 
 Welcome! If you've made it here, you are probably interested in Natural Language Processing \(NLP\) or a related field \( even if you're not, keep reading! \). If you are, I don't need to remind you how quickly NLP is growing, but these two diagrams illustrate this phenomenom well:
 
-[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
+[![Foo](/assets/img/google_trends.png)](/assets/img/google_trends.png)
 <br>
 
 
