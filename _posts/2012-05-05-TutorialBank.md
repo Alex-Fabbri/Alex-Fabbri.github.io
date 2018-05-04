@@ -10,25 +10,7 @@ draft: true
 
 # Introduction 
 
-Welcome! If you've made it here, you are probably interested in Natural Language Processing \(NLP\) or a related field \( even if you're not, keep reading! \). If you are, I don't need to remind you how quickly NLP is growing, but these two diagrams illustrate this phenomenom well:
-
-itc
-<br>
-
-| ![]({{"assets/imgs/nlp_search.png" | absolute_url}}){:height="800px" width="800px"}| 
-|:--:| 
-| *A search of "NLP" returns over a billion results* |
-
-<br> 
-
-| ![]({{ "/assets/imgs/google_trends.png" | absolute_url }}) | 
-|:--:| 
-| *Google trends for the term "Deep Learning"* |
-
-<br> 
-
-
-As a result, advancing in the fields of NLP and AI can seem daunting to the student or researcher. To help the growing NLP community and advance research related to NLP for educational applications, we introduced a new corpus in our paper "TutorialBank: Using a Manually-Collected Corpus for Prerequisite Chains, Survey Extraction and Resource Recommendation."
+Welcome! If you've made it here, you are probably interested in Natural Language Processing \(NLP\) or a related field \( even if you're not, keep reading! \). NLP is rapidly growing, and as a result, advancing in the field can seem daunting to the student or researcher. To help the growing NLP community and advance research related to NLP for educational applications, we introduced a new corpus in our paper "TutorialBank: Using a Manually-Collected Corpus for Prerequisite Chains, Survey Extraction and Resource Recommendation."
 
 # What is TutorialBank?
 
@@ -41,7 +23,7 @@ Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) whi
 
 <br> 
 
-| ![]({{ "/assets/imgs/search_resources.png" | absolute_url }}) | 
+| ![]({{ "/assets/imgs/search_resources.png" | absolute_url }}{:height="800px" width="800px"}) | 
 |:--:| 
 | *In the mood to learn about Deep Learning? Look at all the resources we have for you!* |
 
