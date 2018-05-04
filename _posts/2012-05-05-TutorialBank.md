@@ -12,9 +12,10 @@ draft: true
 
 Welcome! If you've made it here, you are probably interested in Natural Language Processing \(NLP\) or a related field \( even if you're not, keep reading! \). If you are, I don't need to remind you how quickly NLP is growing, but these two diagrams illustrate this phenomenom well:
 
+test
 <br>
 
-| ![]({{ "/assets/imgs/nlp_search.png" | absolute_url }}){:class="img-responsive"} | 
+| [![]({{ "/assets/imgs/nlp_search.png" | absolute_url }})[1]][1]| 
 |:--:| 
 | *A search of "NLP" returns over a billion results* |
 
