@@ -257,7 +257,3 @@ compress_html:
   ignore:
     envs: development
 
-# BibTex Citation plugin
-citation:
-    citation_style: apa
-    citation_locale: en
