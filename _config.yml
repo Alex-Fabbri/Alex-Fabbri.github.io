@@ -214,7 +214,6 @@ gems:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-redirect-from
-plugins: ['jekyll/scholar']
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate

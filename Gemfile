@@ -26,4 +26,3 @@ group :jekyll_plugins do
   gem 'hawkins'
 end
 
-gem 'jekyll-scholar'

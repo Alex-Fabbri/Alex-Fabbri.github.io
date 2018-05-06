@@ -80,5 +80,3 @@ In the future we are planning to expand our taxonomy and corpus. We are also goi
 
 
 # References
-
-{% bibliography --file tutorialbank %}
