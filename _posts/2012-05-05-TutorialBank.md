@@ -14,7 +14,15 @@ Welcome! If you've made it here, you are probably interested in Natural Language
 
 # What is TutorialBank?
 
-TutorialBank is a manually collected dataset of over 5,600 resources on NLP as well as the related fields of Artificial Intelligence (AI), Machine Learning (ML) and Information Retrieval (IR). Over a few years we hand-picked high-quality resources related to these areas. These include tutorials, libraries, codebases, among others. We feel that students learn a lot from reading tutorials in addition to academic papers, so we focus on resources other than papers. For each resource, we populate our database with meta-data such as the type of resource (pedagogical function as stated in the paper) and categorize each one according to our own taxonomy of over 300 topics. 
+TutorialBank is a manually collected dataset of over 5,600 resources on NLP as well as the related fields of Artificial Intelligence (AI), Machine Learning (ML) and Information Retrieval (IR). Over a few years we hand-picked high-quality resources related to these areas. These include tutorials, libraries, codebases, among others. We feel that students learn a lot from reading tutorials in addition to academic papers, so we focus on resources other than papers. For each resource, we populate our database with meta-data such as the type of resource (pedagogical function as stated in the paper) and categorize each one according to our own taxonomy of over 300 topics. Here are some of the topics:
+
+<br> 
+
+| ![]({{ "/assets/imgs/taxonomy.png" | absolute_url }}){:height="800px" width="800px"} | 
+|:--:| 
+| *The top level of the TutorialBank taxonomy* |
+
+<br> 
 
 # How can I use TutorialBank? 
 
