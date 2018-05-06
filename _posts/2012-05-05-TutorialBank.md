@@ -31,7 +31,7 @@ Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) whi
 
 <br> 
 
-| ![]({{ "/assets/imgs/search_resources.png" | absolute_url }}){:height="800px" width="800px"} | 
+| ![]({{ "/assets/imgs/search_resources.png" | absolute_url }}) | 
 |:--:| 
 | *In the mood to learn about Deep Learning? Look at all the resources we have for you!* |
 
@@ -42,9 +42,9 @@ or you can just search for specific terms by clicking "Search Resources" as show
 
 <br> 
 
-| ![]({{ "/assets/imgs/search_lstm.png" | absolute_url }}){:height="800px" width="800px"}| 
+| ![]({{ "/assets/imgs/search_cnn.png" | absolute_url }})| 
 |:--:| 
-| *I wish I had this resource before I did my homework on LSTMs...* |
+| *I wish I had this resource before I did my homework on CNN's...* |
 
 <br> 
 
@@ -52,7 +52,7 @@ or you can just search for specific terms by clicking "Search Resources" as show
 
 Yes! While the collection of all these resources in a search engine is great in and of itself, we annotated our corpus to make it more useful for both the student and the researcher. Additionally, we created a simple command-line tool to make our annotations more accessible, as described below. 
 
-## Survey Topics and Reading Lists
+## Survey Topics, Reading Lists and Prerequisite Chains
 We created a list of 200 topics for which we felt surveys or overviews would be useful and created short reading lists for each topic. What if you don't know which topic to start with? To deal with these, we annotated which topics are prerequisites of which other topics; which topics should you learn to better understand a given topic. Finally, we split up resources for these 200 topics into content cards and then labeled the cards as useful or not for learning the topic at hand. This is important since often resources are on a more general topic and only partly cover the topic you want to learn about. 
 
 ### Accessing our annotations
