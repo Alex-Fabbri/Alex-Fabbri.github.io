@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "TutorialBank: Learn NLP More Easily"
-tags: [test]
+tags: [TutorialBank, NLP, data]
 author: Alex Fabbri
 author_profile: true
 use_math: true
@@ -9,10 +9,6 @@ draft: true
 ---
 
 # Introduction 
-testsetsts
-branch name
-test231413241
-test
 
 Welcome! If you've made it here, you are probably interested in Natural Language Processing \(NLP\) or a related field \(even if you're not, keep reading!\). NLP is rapidly growing, and as a result, advancing in the field can seem daunting to the student or the researcher. To help the growing NLP community and advance research related to NLP for educational applications, we introduced a new corpus in our paper "TutorialBank: Using a Manually-Collected Corpus for Prerequisite Chains, Survey Extraction and Resource Recommendation."
 
