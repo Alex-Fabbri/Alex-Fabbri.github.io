@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: "TutorialBank: Learning NLP Made Easier"
-tags: [TutorialBank, NLP, data]
 author: Alex Fabbri
 author_profile: true
 use_math: true
