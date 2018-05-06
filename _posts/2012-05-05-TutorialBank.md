@@ -53,10 +53,21 @@ or you can just search for specific terms by clicking "Search Resources" as show
 Yes! While the collection of all these resources in a search engine is great in and of itself, we annotated our corpus to make it more useful for both the student and the researcher. Additionally, we created a simple command-line tool to make our annotations more accessible, as described below. 
 
 ## Survey Topics, Reading Lists and Prerequisite Chains
-We created a list of 200 topics for which we felt surveys or overviews would be useful and created short reading lists for each topic. What if you don't know which topic to start with? To deal with these, we annotated which topics are prerequisites of which other topics; which topics should you learn to better understand a given topic. Finally, we split up resources for these 200 topics into content cards and then labeled the cards as useful or not for learning the topic at hand. This is important since often resources are on a more general topic and only partly cover the topic you want to learn about. 
+We created a list of 200 topics for which we felt a survey of the topic would benefit students. As stated in the paper, these topics differ from the taxonomy topics, since we do not want our survey topics to be too broad or fine-grained. For each topic, annotators created reading lists of up to 5 resources on the topic. We then split up resources from these lits into content cards and abeled the cards as useful or not for learning the topic at hand. This is important since often resources are on a more general topic and only partly cover the topic you want to learn about. 
+
+What if you don't know which topic to start with? To address this question, we annotated which topics are prerequisites of which other topics; which topics should you learn to better understand a given topic. A subsection of our graph is shown below:
+
+
+<br> 
+
+| ![]({{ "/assets/imgs/prerequisites.png" | absolute_url }}){:height="800px" width="800px"}  | 
+|:--:| 
+| *Time to brush up! Where did I leave Gilbert Strang's book?* |
+
+<br> 
 
 ### Accessing our annotations
-That sounds like a mouthful to go through. Luckily for you, we create a command-line tool to make our annotations more accessible through an interface:
+That sounds like a mouthful to go through. Luckily for you, we created a command-line tool to make our annotations easily accessible:
 
 
 <br> 
