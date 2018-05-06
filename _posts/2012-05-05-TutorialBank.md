@@ -78,5 +78,15 @@ Of course! Our annotations for resource type, reading lists and topic categoriza
 In the future we are planning to expand our taxonomy and corpus. We are also going to add new features to our site, and so we greatly appreciate any feedback you may have. Feel free to email me or send a message under "Contact" on our site. Additionally, we are planning to refine our annotation and explore more deeply the areas of prerequisite chains, resource recommendation and survey extraction.  
 
 
+{% bibtex %}
+@article{brothman1991orders,
+  title={Orders of value: probing the theoretical terms of Archival Practice},
+  author={Brothman, B.},
+  journal={Archivaria},
+  volume={32},
+  number={1},
+  year={1991}
+}
+{% endbibtex %}
 
 # References
