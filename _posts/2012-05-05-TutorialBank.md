@@ -50,7 +50,7 @@ or you can just search for specific terms by clicking "Search Resources" as show
 
 # Is there more? 
 
-Yes! While the collection of all these resources in a search engine is great in and of itself, we annotated our corpus to make it more useful for both the student and the researcher. Additionally, we created a simple command-line tool to make our annotations more accessible, as described below. 
+Yes! While the collection of all these resources in a search engine is great in and of itself, we annotated our corpus to make it more useful for both the student and the researcher. Additionally, we created a simple command-line tool (available along with the corpus) to make our annotations more accessible, as described below. 
 
 ## Survey Topics, Reading Lists and Prerequisite Chains
 We created a list of 200 topics for which we felt a survey of the topic would benefit students. As stated in the paper, these topics differ from the taxonomy topics, since we do not want our survey topics to be too broad or fine-grained. For each topic, annotators created reading lists of up to 5 resources on the topic. We then split up resources from these lits into content cards and abeled the cards as useful or not for learning the topic at hand. This is important since often resources are on a more general topic and only partly cover the topic you want to learn about. 
@@ -66,7 +66,7 @@ What if you don't know which topic to start with? To address this question, we a
 
 <br> 
 
-### Accessing our annotations
+## Accessing our annotations
 That sounds like a mouthful to go through. Luckily for you, we created a command-line tool to make our annotations easily accessible:
 
 
@@ -87,13 +87,10 @@ That sounds like a mouthful to go through. Luckily for you, we created a command
 <br> 
 
 
-# Can I use this for research too? 
-Of course! Our annotations for resource type, reading lists and topic categorization can be used for experiments in text classification, resource recommendation systems and topic modeling. Our extensive prerequisite chain annotations can be used for learning concept dependencies, while we hope that our annotations for survey extraction will promote information retrieval for scientific topics. 
+# How can I use this for research? 
+Our annotations for resource type and topic categorization promote research in text classification and topic modeling while we hope our annotated reading lists and survey extraction annotations will promote information retrieval for scientific topics. Finally, our extensive prerequisite chain annotations can be used for learning concept dependencies in a supervised/semi-supervised manner. 
 
 
 # What can I expect in the future? 
 
-In the future we are planning to expand our taxonomy and corpus. We are also going to add new features to our site, and so we greatly appreciate any feedback you may have. Feel free to email me or send a message under "Contact" on our site. Additionally, we are planning to refine our annotation and explore more deeply the areas of prerequisite chains, resource recommendation and survey extraction.  
-
-
-# References
+In the future we are planning to expand our taxonomy and corpus. We are also going to add new features to our site, and so we greatly appreciate any feedback you may have. Feel free to email me or send a message under "Contact" on our site. Additionally, we are planning to refine our annotation and explore more deeply the research areas of prerequisite chains, resource recommendation and survey extraction.  
