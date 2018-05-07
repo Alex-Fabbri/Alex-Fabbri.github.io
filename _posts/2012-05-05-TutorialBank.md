@@ -25,7 +25,7 @@ TutorialBank is a manually collected dataset of over 5,600 resources on NLP as w
 
 # How can I use TutorialBank? 
 
-Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) which we call "All About NLP" (AAN) and which you can use to quickly search our corpus ([Access the corpus](https://github.com/Yale-LILY/TutorialBank)).  Our site also hosts the [ACL Anthology Network Corpus](http://clair.si.umich.edu/~radev/papers/aan_lre.pdf) and allows you to search over 24,000 papers. You can explore our taxonomy and pick the type of resource you are looking for by clicking "Browse Resources by Topic:"
+Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) which we call "All About NLP" (AAN) and which you can use to quickly search our corpus ([Access the corpus](https://github.com/Yale-LILY/TutorialBank)).  The acronym AAN may be known to you from the ACL Anthology Network Corpus introduced [here](http://clair.si.umich.edu/~radev/papers/aan09.pdf) and [here](http://clair.si.umich.edu/~radev/papers/aan_lre.pdf), which themselves build upon [The ACL Anthology Reference Corpus](http://clair.si.umich.edu/~radev/papers/lrec08.pdf). We host the ACL Anthology Network Corpus on our site and our search engine allows you to search over 24,000 papers. Additionally, as stated above, our corpus focuses on tutorials and resources other than the academic papers from the above corpora. You can explore our taxonomy and pick the type of resource you are looking for by clicking "Browse Resources by Topic:"
 
 
 <br> 
