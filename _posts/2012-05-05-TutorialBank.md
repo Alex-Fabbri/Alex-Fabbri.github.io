@@ -5,7 +5,6 @@ author: Alex Fabbri
 author_profile: true
 use_math: true
 draft: true
-og:image: /taxonomy.png
 header:
   image: /taxonomy.png
 ---
@@ -15,6 +14,7 @@ header:
 Welcome! If you've made it here, you are probably interested in Natural Language Processing \(NLP\) or a related field \(even if you're not, keep reading!\). NLP is rapidly growing, and, as a result, advancing in the field can seem daunting to the student or the researcher. To help the growing NLP community and advance research related to NLP for educational applications, we introduced a new corpus in our paper "[TutorialBank: Using a Manually-Collected Corpus for Prerequisite Chains, Survey Extraction and Resource Recommendation]()" by Alexander Fabbri, Irene Li, Prawat Trairatvorakul, Yijiao He, Weitai Ting, Robert Tung, Caitlin Westerfield and Dragomir Radev
  [LILY, YALE](https://yale-lily.github.io/)."
 
+og:image: /taxonomy.png
 # What is TutorialBank?
 
 TutorialBank is a manually collected dataset of over 5,600 resources on NLP as well as the related fields of Artificial Intelligence (AI), Machine Learning (ML) and Information Retrieval (IR). Over a few years we hand-picked high-quality resources related to these areas. These include surveys, tutorials, libraries, codebases, among others. We feel that students learn a lot from reading tutorials in addition to academic papers, so we focus on resources other than papers. For each resource, we populate our database with meta-data such as the type of resource (pedagogical function as stated in the paper) and categorize each one according to our own taxonomy of over 300 topics. Here are some of the topics:
