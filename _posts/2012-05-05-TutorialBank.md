@@ -4,7 +4,8 @@ title: "TutorialBank: Learning NLP Made Easier"
 author: Alex Fabbri
 author_profile: true
 use_math: true
-header: /images/editing-talk.png
+header: 
+  images: /assets/imgs/taxonomy.png
 draft: true
 ---
 
