@@ -4,7 +4,7 @@ title: "TutorialBank: Learning NLP Made Easier"
 author: Alex Fabbri
 author_profile: true
 use_math: true
-subtitle:   "Deriving neuralnet gradient is an absolutely great exercise to understand backpropagation and computational graph better. In this post we will walk through the process of deriving LSTM net gradient so that we can use it in backpropagation."
+header: /images/editing-talk.png
 draft: true
 ---
 
