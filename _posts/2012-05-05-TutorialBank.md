@@ -5,7 +5,7 @@ author: Alex Fabbri
 author_profile: true
 use_math: true
 header:
-  image: /assets/imgs/taxonomy.png
+  image: /taxonomy.png
 draft: true
 ---
 
