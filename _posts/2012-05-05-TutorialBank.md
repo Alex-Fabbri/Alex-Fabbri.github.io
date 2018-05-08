@@ -5,7 +5,7 @@ author: Alex Fabbri
 author_profile: true
 use_math: true
 header:
-  image: "https://commons.wikimedia.org/wiki/File:Test_card.png"
+  image: /assets/imgs/taxonomy.png
 draft: true
 ---
 
