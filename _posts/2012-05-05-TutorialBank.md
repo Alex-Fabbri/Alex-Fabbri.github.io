@@ -6,6 +6,7 @@ author_profile: true
 use_math: true
 header:
   image: /taxonomy.png
+  overlay_image: /taxonomy.png
 draft: true
 ---
 
