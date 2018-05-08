@@ -5,8 +5,6 @@ author: Alex Fabbri
 author_profile: true
 use_math: true
 draft: true
-header:
-  image: /taxonomy.png
 ---
 
 # Introduction 
