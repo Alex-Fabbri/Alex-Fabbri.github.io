@@ -99,11 +99,11 @@ In the future we are planning to expand our taxonomy and corpus. We are also goi
 If you plan to us some of this in your work, please cite our paper:
 
 <br>
-@InProceedings{fabbri2018tutorialbank,<br/><br/>
-  author =  {Alexander Fabbri, Irene Li, Prawat Trairatvorakul, Yijiao He, Weitai Ting, Robert Tung, Caitlin Westerfield and Dragomir Radev},<br/><br/>
-  title =   {TutorialBank: A Manually-Collected Corpus for Prerequisite Chains,  Survey Extraction and Resource Recommendation},<br/><br/>
-  year =    {2018},  <br/><br/>
-  booktitle =   {Proceedings of ACL},  <br/><br/>
-  publisher =   {Association for Computational Linguistics}<br/><br/>
+@InProceedings{fabbri2018tutorialbank,<br/>
+  author =  {Alexander Fabbri, Irene Li, Prawat Trairatvorakul, Yijiao He, Weitai Ting, Robert Tung, Caitlin Westerfield and Dragomir Radev},<br/>
+  title =   {TutorialBank: A Manually-Collected Corpus for Prerequisite Chains,  Survey Extraction and Resource Recommendation},<br/>
+  year =    {2018},  <br/>
+  booktitle =   {Proceedings of ACL},  <br/>
+  publisher =   {Association for Computational Linguistics}<br/>
 }
 <br>
