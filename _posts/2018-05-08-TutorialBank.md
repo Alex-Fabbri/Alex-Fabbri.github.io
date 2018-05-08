@@ -10,12 +10,12 @@ og_image: "images/paper_image.png"
 
 # Introduction 
 
-Welcome! If you've made it here, you are probably interested in Natural Language Processing \(NLP\) or a related field \(even if you're not, keep reading!\). NLP is rapidly growing, and, as a result, advancing in the field can seem daunting to the student or the researcher. To help the growing NLP community and advance research related to NLP for educational applications, we introduced a new corpus in our paper "[TutorialBank: Using a Manually-Collected Corpus for Prerequisite Chains, Survey Extraction and Resource Recommendation]()" by Alexander Fabbri, Irene Li, Prawat Trairatvorakul, Yijiao He, Weitai Ting, Robert Tung, Caitlin Westerfield and Dragomir Radev
+Welcome! If you've made it here, you are probably interested in Natural Language Processing \(NLP\) or a related field \(even if you're not, keep reading!\). NLP is rapidly growing, and, as a result, advancing in the field can seem daunting to the student or the researcher. To help the growing NLP community and advance research related to NLP for educational applications, we introduced a new corpus in our paper "[TutorialBank: Using a Manually-Collected Corpus for Prerequisite Chains, Survey Extraction and Resource Recommendation]()" ([see github](https://github.com/Yale-LILY/TutorialBank)) by Alexander Fabbri, Irene Li, Prawat Trairatvorakul, Yijiao He, Weitai Ting, Robert Tung, Caitlin Westerfield and Dragomir Radev
  [LILY, YALE](https://yale-lily.github.io/)."
 
 # What is TutorialBank?
 
-TutorialBank is a manually collected dataset of about 6,000 resources on NLP as well as the related fields of Artificial Intelligence (AI), Machine Learning (ML) and Information Retrieval (IR). Over a few years we hand-picked high-quality resources related to these areas. These include surveys, tutorials, libraries, codebases, among others. We feel that students learn a lot from reading tutorials in addition to academic papers, so we focus on resources other than papers. For each resource, we populate our database with meta-data such as the type of resource (pedagogical function as stated in the paper) and categorize each one according to our own taxonomy of over 300 topics. Here are some of the topics:
+TutorialBank is a manually collected dataset of about 6,500 resources on NLP as well as the related fields of Artificial Intelligence (AI), Machine Learning (ML) and Information Retrieval (IR). Over a few years we hand-picked high-quality resources related to these areas. These include surveys, tutorials, libraries, codebases, among others. We feel that students learn a lot from reading tutorials in addition to academic papers, so we focus on resources other than papers. For each resource, we populate our database with meta-data such as the type of resource (pedagogical function as stated in the paper) and categorize each one according to our own taxonomy of over 300 topics. The topics cover a wide range of areas, from fundamental data structures, algorithms and background in mathematics and linguistics to state of the art advances in Deep Learning, Machine Translation and Reinforcement Learning, among others. Below are listed some of the topics:
 
 <br> 
 
@@ -25,8 +25,7 @@ TutorialBank is a manually collected dataset of about 6,000 resources on NLP as 
 
 <br> 
 
-Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) which we call "All About NLP" (AAN) and which you can use to quickly search our corpus ([Access the corpus](https://github.com/Yale-LILY/TutorialBank)).  The acronym AAN may be known to you from the ACL Anthology Network Corpus introduced [here](http://clair.si.umich.edu/~radev/papers/aan09.pdf) and [here](http://clair.si.umich.edu/~radev/papers/aan_lre.pdf), which itself builds upon the [ACL Anthology Reference Corpus](http://clair.si.umich.edu/~radev/papers/lrec08.pdf). We host the ACL Anthology Network Corpus on our site and our search engine allows you to search over 24,000 papers. Additionally, as stated above, our corpus focuses on tutorials and resources other than the academic papers from the above corpora. You can explore our taxonomy and pick the type of resource you are looking for by clicking "Browse Resources by Topic:"
-
+Very easily! We created [a search engine](http://tangra.cs.yale.edu/newaan/) which we call "All About NLP" (AAN) and which you can use to quickly search our corpus ([Access the corpus](https://github.com/Yale-LILY/TutorialBank)).  The acronym AAN may be known to you from the ACL Anthology Network Corpus introduced [here](http://clair.si.umich.edu/~radev/papers/aan09.pdf) and [here](http://clair.si.umich.edu/~radev/papers/aan_lre.pdf), which itself builds upon the [ACL Anthology Reference Corpus](http://clair.si.umich.edu/~radev/papers/lrec08.pdf). We integrate the former use of AAN with our new search engine which allows you to search over 24,000 papers from the ACL Anthology Network Corpus as well as the new corpus of resources which are constantly being added to. You can explore our taxonomy of resources and pick the type of resource you are looking for by clicking "Browse Resources by Topic:"
 
 <br> 
 
@@ -46,6 +45,10 @@ or you can just search for specific terms by clicking "Search Resources" as show
 | *I wish I had this resource before I did my homework on CNNs...* |
 
 <br> 
+
+## Resource Recommendation
+
+Another functionality of our site which we are excited about is recommending resources based on title and abstract pairs. Often times you may be given a task or have an early idea for a project and need to find resources to start with. Giving this starting point, we want to recommend resources for you to complete your project, like writing a bibliography of tutorials! To access this feature, go to the [Dashboard](http://tangra.cs.yale.edu/newaan/index.php/user) (requires login) and click on "Public Projects" to view examples or "My Projects" to create your own. 
 
 # Is there more? 
 
@@ -93,13 +96,14 @@ We are releasing the links to the resources in our corpus [click here for a mysq
 
 In the future we are planning to expand our taxonomy and corpus. We are also going to add new features to our site, and so we greatly appreciate any feedback you may have. Feel free to email me or send a message under "Contact" on our site. Additionally, we are planning to refine our annotation and explore more deeply the research areas of prerequisite chains, resource recommendation and survey extraction.  
 
-If you plan on using some of this in your work, please cite our paper
+If you plan on using some of this in your work, please cite our paper:
+
 <br>
-|@InProceedings{fabbri2018tutorialbank,|
-|  author =  {Alexander Fabbri, Irene Li, Prawat Trairatvorakul, Yijiao He, Weitai Ting, Robert Tung, Caitlin Westerfield and Dragomir Radev},|
-|  title =   {TutorialBank: A Manually-Collected Corpus for Prerequisite Chains,  Survey Extraction and Resource Recommendation},|
-|  year =    {2018},  |
-|  booktitle =   {Proceedings of ACL},  |
-|  publisher =   {Association for Computational Linguistics},|
-|}|
+@InProceedings{fabbri2018tutorialbank,
+  author =  {Alexander Fabbri, Irene Li, Prawat Trairatvorakul, Yijiao He, Weitai Ting, Robert Tung, Caitlin Westerfield and Dragomir Radev},
+  title =   {TutorialBank: A Manually-Collected Corpus for Prerequisite Chains,  Survey Extraction and Resource Recommendation},
+  year =    {2018},  
+  booktitle =   {Proceedings of ACL},  
+  publisher =   {Association for Computational Linguistics},
+}
 <br>
