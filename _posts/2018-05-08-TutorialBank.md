@@ -86,9 +86,20 @@ That sounds like a mouthful to go through. Luckily for you, we created a command
 
 
 # How can I use this for research? 
-Our annotations for resource type and topic categorization promote research in text classification and topic modeling while we hope our annotated reading lists and survey extraction annotations will promote information retrieval for scientific topics. Finally, our extensive prerequisite chain annotations can be used for learning concept dependencies in a supervised/semi-supervised manner. 
+We are releasing the links to the resources in our corpus [click here for a mysql dump of the resources](https://github.com/Yale-LILY/TutorialBank/blob/master/data/resources.sql). For copyright resons we are not including the full documents, but we are including scripts to download the resources which can be found [here](https://github.com/Yale-LILY/TutorialBank/blob/master/src/download_all.py). Our annotations for resource type and topic categorization promote research in text classification and topic modeling while we hope our annotated reading lists and survey extraction annotations will promote information retrieval for scientific topics. Finally, our extensive prerequisite chain annotations can be used for learning concept dependencies in a supervised/semi-supervised manner. 
 
 
 # What can I expect in the future? 
 
 In the future we are planning to expand our taxonomy and corpus. We are also going to add new features to our site, and so we greatly appreciate any feedback you may have. Feel free to email me or send a message under "Contact" on our site. Additionally, we are planning to refine our annotation and explore more deeply the research areas of prerequisite chains, resource recommendation and survey extraction.  
+
+If you plan on using some of this in your work, please cite our paper
+<br>
+|@InProceedings{fabbri2018tutorialbank,|
+|  author =  {Alexander Fabbri, Irene Li, Prawat Trairatvorakul, Yijiao He, Weitai Ting, Robert Tung, Caitlin Westerfield and Dragomir Radev},|
+|  title =   {TutorialBank: A Manually-Collected Corpus for Prerequisite Chains,  Survey Extraction and Resource Recommendation},|
+|  year =    {2018},  |
+|  booktitle =   {Proceedings of ACL},  |
+|  publisher =   {Association for Computational Linguistics},|
+|}|
+<br>
