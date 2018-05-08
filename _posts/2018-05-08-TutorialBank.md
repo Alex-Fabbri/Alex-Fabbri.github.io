@@ -96,7 +96,7 @@ We are releasing the links to the resources in our corpus [click here for a mysq
 
 In the future we are planning to expand our taxonomy and corpus. We are also going to add new features to our site, and so we greatly appreciate any feedback you may have. Feel free to email me or send a message under "Contact" on our site. Additionally, we are planning to refine our annotation and explore more deeply the research areas of prerequisite chains, resource recommendation and survey extraction.  
 
-If you plan on using some of this in your work, please cite our paper:
+If you plan to us some of this in your work, please cite our paper:
 
 <br>
 @InProceedings{fabbri2018tutorialbank,
