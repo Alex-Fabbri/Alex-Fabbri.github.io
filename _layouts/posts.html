@@ -28,6 +28,9 @@ layout: single
     </div>
 
     {% include scripts.html %}
+{% if page.comments %}
+  {% include disqus.html %}
+{% endif %}
 
   </body>
 </html>

@@ -26,7 +26,6 @@ redirect_from:
 
 * **Honors**: 
 	- PhD fellowship in Computer Science at Yale University, 2017.
-	- Validictorian of Chaminade High School, 2013.
 
 * **References**: 
 	- available upon request

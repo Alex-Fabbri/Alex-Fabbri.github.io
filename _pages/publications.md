@@ -10,6 +10,9 @@ urlcolor: blue
 
 [Google Scholar](https://scholar.google.com/citations?user=GgfJdhwAAAAJ&hl=en)
 
+* [Sarcasm Analysis using Conversation Context](https://arxiv.org/pdf/1808.07531.pdf)<br/>
+    - Debanjan Ghosh, **Alexander R. Fabbri**, Smaranda Muresan
+    - Computational Linguistics (Journal), 2018
 * [TutorialBank: Using a Manually-Collected Corpus for Prerequisite Chains, Survey Extraction and Resource Recommendation](). [DATA]()<br/>
     - **Alexander R. Fabbri**, Irene Li, Prawat Trairatvorakul, Yijiao He, Weitai Ting, Robert Tung, Caitlin Westerfield and Dragomir Radev
     - 56th Annual Meeting of the Association for Computational Linguistics ([ACL](http://acl2018.org/)), July 2018<br/>
