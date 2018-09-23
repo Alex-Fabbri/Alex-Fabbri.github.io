@@ -3,6 +3,9 @@ layout: default
 author_profile: false
 ---
 
+   {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
 <div id="main" role="main">
   {% include sidebar.html %}
   {% if page.use_math %}

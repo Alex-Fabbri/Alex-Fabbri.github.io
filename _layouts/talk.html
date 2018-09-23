@@ -11,6 +11,9 @@ layout: default
   {% include mathjax_support %}
 {% endif %}
 
+   {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
