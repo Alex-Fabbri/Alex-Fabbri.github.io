@@ -258,7 +258,6 @@ GEM
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     unicode-display_width (1.4.0)
-    unicode_utils (1.4.0)
 
 PLATFORMS
   ruby
@@ -269,7 +268,6 @@ DEPENDENCIES
   jekyll-feed
   jekyll-scholar
   jekyll-sitemap
-  unicode_utils
 
 BUNDLED WITH
    1.16.5
