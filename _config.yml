@@ -263,7 +263,7 @@ scholar:
   style: elsevier-with-titles-alphabetical
   locale: en
 
-  sort_by: none
+  sort_by: author
   order: ascending
 
   group_by: none
