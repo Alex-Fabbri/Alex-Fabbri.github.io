@@ -283,7 +283,7 @@
 
 
   
-	  7 minute read
+	  9 minute read
 	
 </p>
           
@@ -470,50 +470,60 @@
 <p>This paper, like <a href="#Liu:18">[1]</a>, also emphasizes that automatic summarizaton of data clusters has focused on datasets of ten to twenty ratherh short documents. They introduce an approach to create hierarchical summarization corpora from heterogeneous datasets of over 100,000 tokens from multiple genres. Their corpus focuses on topics related to education. Corpus collection is divided into two phases: 1) a crowdsourcing part extracts relevant nuggets from multiple documents 2) three expert annotators organize the nuggets into hierarchicies which are then organized into a gold standard by greedily maximizing hierarchy overlap. They release code for their annotator interface and crowdsourcing experiment to make developing summarization corpora easier.</p>
 
 <h1 id="104-summarizing-opinions-aspect-extraction-meets-sentiment-prediction-and-they-are-both-weakly-supervised-8">10/4 Summarizing Opinions: Aspect Extraction Meets Sentiment Prediction and They Are Both Weakly Supervised <a href="#Angelidis:18">[8]</a></h1>
+<p>They provide a neural frameowork for opinion summarization and introduce an opinion summarization dataset from six domains. They discuss the work as three subtasks: 1) aspect extraction or finding specific features pertaining to the entity of interest 2) sentiment prediction which determines the sentiment orientation on the aspects found in the first step and 3) summary generation which presents the opinions to the user. They take reviews and split them into segments, in this case Elemeentary Discourse Units(cite!) obtained from a Rhetorical Structure Theory parser (cite!). First aspect extraction builds upon the Aspect-based autoencoder (cite!), essentially a neural topic model. Their model improves upon this through the introduction of a set of seed words. They also introduce the oposum dataset consists of six training collections created from the Amazon Product Dataset (cite!). Really good evaluation using Best-worst scaling (cite!).</p>
 
 <h1 id="105-a-neural-attention-model-for-abstractive-sentence-summarization-9">10/5 A Neural Attention Model for Abstractive Sentence Summarization <a href="#Rush:15">[9]</a></h1>
+<p>They combine a neural language model with a contextual input encoder, based off of the attention-based encoder of <a href="#Bahdanau:14">[10]</a>. They compare this encoder to a bag-of-words encoder as well as a convolutional encoder. Summaries are generating using beam search. A notable point is that the abstractive model does not have the capacity to find extractive word matches.</p>
 
-<h1 id="106-get-to-the-point-summarization-with-pointer-generator-networks-10">10/6 Get To The Point: Summarization with Pointer-Generator Networks <a href="#See:17">[10]</a></h1>
+<h1 id="106-get-to-the-point-summarization-with-pointer-generator-networks-11">10/6 Get To The Point: Summarization with Pointer-Generator Networks <a href="#See:17">[11]</a></h1>
+<p>In order to improve upon abstractive summarization, this paper introduces pointer-generator networks, which is a hybrid between standard seq2seq models and pointer networks <a href="#Vinyals:15">[12]</a> which allows the model to copy words from the input. This aims to address the problem brought up in <a href="#Rush:15">[9]</a>. Additionally, repetition is a problem for sequence to sequence models. To address this, they modify the coverage model of <a href="#Tu:16">[13]</a> to penalize overlap between the attention distribution and the coverage so far.</p>
 
-<h1 id="107-dont-give-me-the-details-just-the-summary-topic-aware-convolutional-neural-networks-for-extreme-summarization-11">10/7 Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization <a href="#Narayan:18">[11]</a></h1>
+<h1 id="107-dont-give-me-the-details-just-the-summary-topic-aware-convolutional-neural-networks-for-extreme-summarization-14">10/7 Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization <a href="#Narayan:18">[14]</a></h1>
 
-<h1 id="108-data-to-text-generation-with-content-selection-and-planning-missing-reference">10/8 Data-to-Text Generation with Content Selection and Planning (missing reference)</h1>
+<h1 id="108-data-to-text-generation-with-content-selection-and-planning-15">10/8 Data-to-Text Generation with Content Selection and Planning <a href="#Puduppully:18">[15]</a></h1>
 
-<h1 id="109-graph-based-neural-multi-document-summarizationa-12">10/9 Graph-based neural multi-document summarizationa <a href="#Yasunaga:17">[12]</a></h1>
+<h1 id="109-graph-based-neural-multi-document-summarizationa-16">10/9 Graph-based neural multi-document summarizationa <a href="#Yasunaga:17">[16]</a></h1>
 
-<h1 id="1010-adapting-the-neural-encoder-decoder-framework-from-single-to-multi-document-summarization-13">10/10 Adapting the Neural Encoder-Decoder Framework from Single to Multi-Document Summarization <a href="#Lebanoff:18">[13]</a></h1>
+<h1 id="1010-adapting-the-neural-encoder-decoder-framework-from-single-to-multi-document-summarization-17">10/10 Adapting the Neural Encoder-Decoder Framework from Single to Multi-Document Summarization <a href="#Lebanoff:18">[17]</a></h1>
 
 <h2 id="references">References</h2>
 
-<ol class="bibliography"><li><span id="Gehrmann:18">[1]S. Gehrmann, Y. Deng, A.M. Rush, Bottom-Up Abstractive Summarization, CoRR. abs/1808.10792 (2018).</span></li>
-<li><span id="Liu:18">[2]P.J. Liu, M. Saleh, E. Pot, B. Goodrich, R. Sepassi, L. Kaiser, N. Shazeer, Generating Wikipedia by Summarizing Long Sequences, CoRR. abs/1801.10198 (2018).</span></li>
-<li><span id="Tauchmann:18">[3]C. Tauchmann, T. Arnold, A. Hanselowski, C.M. Meyer, M. Mieskes, Beyond Generic Summarization: A Multi-faceted Hierarchical Summarization
-               Corpus of Large Heterogeneous Data, in: Proceedings of the Eleventh International Conference on Language Resources
-               and Evaluation, LREC 2018, Miyazaki, Japan, May 7-12, 2018., 2018.</span></li>
-<li><span id="Angelidis:18">[4]S. Angelidis, M. Lapata, Summarizing Opinions: Aspect Extraction Meets Sentiment Prediction
+<ol class="bibliography"><li><span id="Angelidis:18">[1]S. Angelidis, M. Lapata, Summarizing Opinions: Aspect Extraction Meets Sentiment Prediction
                and They Are Both Weakly Supervised, CoRR. abs/1808.08858 (2018).</span></li>
-<li><span id="See:17">[5]A. See, P.J. Liu, C.D. Manning, Get To The Point: Summarization with Pointer-Generator Networks, in: Proceedings of the 55th Annual Meeting of the Association for Computational
-               Linguistics, ACL 2017, Vancouver, Canada, July 30 - August 4, Volume
-               1: Long Papers, 2017: pp. 1073–1083.</span></li>
-<li><span id="Yasunaga:17">[6]M. Yasunaga, R. Zhang, K. Meelu, A. Pareek, K. Srinivasan, D.R. Radev, Graph-based Neural Multi-Document Summarization, in: Proceedings of the 21st Conference on Computational Natural Language
-               Learning (CoNLL 2017), Vancouver, Canada, August 3-4, 2017, 2017: pp. 452–462.</span></li>
-<li><span id="Ramos:03">[7]J.E. Ramos, Using TF-IDF to Determine Word Relevance in Document Queries, in: 2003.</span></li>
-<li><span id="Mihalcea:04">[8]R. Mihalcea, P. Tarau, TextRank: Bringing Order into Text, in: Proceedings of the 2004 Conference on Empirical Methods in Natural
+<li><span id="Bahdanau:14">[2]D. Bahdanau, K. Cho, Y. Bengio, Neural Machine Translation by Jointly Learning to Align and Translate, CoRR. abs/1409.0473 (2014).</span></li>
+<li><span id="Gehrmann:18">[3]S. Gehrmann, Y. Deng, A.M. Rush, Bottom-Up Abstractive Summarization, CoRR. abs/1808.10792 (2018).</span></li>
+<li><span id="Lebanoff:18">[4]L. Lebanoff, K. Song, F. Liu, Adapting the Neural Encoder-Decoder Framework from Single to Multi-Document
+               Summarization, CoRR. abs/1808.06218 (2018).</span></li>
+<li><span id="Liu:18">[5]P.J. Liu, M. Saleh, E. Pot, B. Goodrich, R. Sepassi, L. Kaiser, N. Shazeer, Generating Wikipedia by Summarizing Long Sequences, CoRR. abs/1801.10198 (2018).</span></li>
+<li><span id="Mihalcea:04">[6]R. Mihalcea, P. Tarau, TextRank: Bringing Order into Text, in: Proceedings of the 2004 Conference on Empirical Methods in Natural
                Language Processing , EMNLP 2004, A Meeting of SIGDAT, a Special
                Interest Group of the ACL, Held in Conjunction with ACL 2004, 25-26
                July 2004, Barcelona, Spain, 2004: pp. 404–411.</span></li>
-<li><span id="Nenkova:05">[9]A. Nenkova, L. Vanderwende, The impact of frequency on summarization, Microsoft Research, 2005.</span></li>
-<li><span id="Vaswani:17">[10]A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A.N. Gomez, L. Kaiser, I. Polosukhin, Attention is All you Need, in: Advances in Neural Information Processing Systems 30: Annual Conference
-               on Neural Information Processing Systems 2017, 4-9 December 2017,
-               Long Beach, CA, USA, 2017: pp. 6000–6010.</span></li>
+<li><span id="Narayan:18">[7]S. Narayan, S.B. Cohen, M. Lapata, Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional
+               Neural Networks for Extreme Summarization, CoRR. abs/1808.08745 (2018).</span></li>
+<li><span id="Nenkova:05">[8]A. Nenkova, L. Vanderwende, The impact of frequency on summarization, Microsoft Research, 2005.</span></li>
+<li><span id="Puduppully:18">[9]R. Puduppully, L. Dong, M. Lapata, Data-to-Text Generation with Content Selection and Planning, (2018).</span></li>
+<li><span id="Ramos:03">[10]J.E. Ramos, Using TF-IDF to Determine Word Relevance in Document Queries, in: 2003.</span></li>
 <li><span id="Rush:15">[11]A.M. Rush, S. Chopra, J. Weston, A Neural Attention Model for Abstractive Sentence Summarization, in: Proceedings of the 2015 Conference on Empirical Methods in Natural
                Language Processing, EMNLP 2015, Lisbon, Portugal, September 17-21,
                2015, 2015: pp. 379–389.</span></li>
-<li><span id="Narayan:18">[12]S. Narayan, S.B. Cohen, M. Lapata, Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional
-               Neural Networks for Extreme Summarization, CoRR. abs/1808.08745 (2018).</span></li>
-<li><span id="Puduppully:18">[13]R. Puduppully, L. Dong, M. Lapata, Data-to-Text Generation with Content Selection and Planning, (2018).</span></li>
-<li><span id="Lebanoff:18">[14]L. Lebanoff, K. Song, F. Liu, Adapting the Neural Encoder-Decoder Framework from Single to Multi-Document
-               Summarization, CoRR. abs/1808.06218 (2018).</span></li></ol>
+<li><span id="See:17">[12]A. See, P.J. Liu, C.D. Manning, Get To The Point: Summarization with Pointer-Generator Networks, in: Proceedings of the 55th Annual Meeting of the Association for Computational
+               Linguistics, ACL 2017, Vancouver, Canada, July 30 - August 4, Volume
+               1: Long Papers, 2017: pp. 1073–1083.</span></li>
+<li><span id="Tauchmann:18">[13]C. Tauchmann, T. Arnold, A. Hanselowski, C.M. Meyer, M. Mieskes, Beyond Generic Summarization: A Multi-faceted Hierarchical Summarization
+               Corpus of Large Heterogeneous Data, in: Proceedings of the Eleventh International Conference on Language Resources
+               and Evaluation, LREC 2018, Miyazaki, Japan, May 7-12, 2018., 2018.</span></li>
+<li><span id="Tu:16">[14]Z. Tu, Z. Lu, Y. Liu, X. Liu, H. Li, Modeling Coverage for Neural Machine Translation, in: Proceedings of the 54th Annual Meeting of the Association for Computational
+               Linguistics, ACL 2016, August 7-12, 2016, Berlin, Germany, Volume
+               1: Long Papers, 2016.</span></li>
+<li><span id="Vaswani:17">[15]A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A.N. Gomez, L. Kaiser, I. Polosukhin, Attention is All you Need, in: Advances in Neural Information Processing Systems 30: Annual Conference
+               on Neural Information Processing Systems 2017, 4-9 December 2017,
+               Long Beach, CA, USA, 2017: pp. 6000–6010.</span></li>
+<li><span id="Vinyals:15">[16]O. Vinyals, M. Fortunato, N. Jaitly, Pointer Networks, in: Advances in Neural Information Processing Systems 28: Annual Conference
+               on Neural Information Processing Systems 2015, December 7-12, 2015,
+               Montreal, Quebec, Canada, 2015: pp. 2692–2700.</span></li>
+<li><span id="Yasunaga:17">[17]M. Yasunaga, R. Zhang, K. Meelu, A. Pareek, K. Srinivasan, D.R. Radev, Graph-based Neural Multi-Document Summarization, in: Proceedings of the 21st Conference on Computational Natural Language
+               Learning (CoNLL 2017), Vancouver, Canada, August 3-4, 2017, 2017: pp. 452–462.</span></li></ol>
 
 
     </script>
