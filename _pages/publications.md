@@ -10,6 +10,12 @@ urlcolor: blue
 
 [Google Scholar](https://scholar.google.com/citations?user=GgfJdhwAAAAJ&hl=en)
 
+* [What Should I Learn First: Introducing LectureBank for NLP Education and Prerequisite Chain Learning](https://arxiv.org/pdf/1811.12181.pdf)<br/>
+    - Irene Li, **Alexander Fabbri**, Robert Tung, and Dragomir Radev
+    - AAAI, 2019
+* ScisummNet: A Large Annotated Corpus and Content-Impact Models for Scientific Paper Summarization with Citation Networks<br/>
+    - Michihiro Yasunaga, Jungo Kasai, Rui Zhang, **Alexander Fabbri**, Irene Li, Dan Friedman, and Dragomir Radev
+    - AAAI, 2019
 * [Sarcasm Analysis using Conversation Context](https://arxiv.org/pdf/1808.07531.pdf)<br/>
     - Debanjan Ghosh, **Alexander R. Fabbri**, Smaranda Muresan
     - Computational Linguistics (Journal), 2018
